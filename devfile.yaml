@@ -1,0 +1,21 @@
+schemaVersion: 2.0.0
+metadata:
+  name: chrome-extension
+  version: 1.0.0
+components:
+  - name: dev
+    container:
+      image: public.ecr.aws/aws-mde/universal-image:latest
+commands:
+  - id: install
+    exec:
+      component: dev
+      commandLine: "echo 'No dependencies to install for this vanilla JavaScript project'"
+  - id: build
+    exec:
+      component: dev
+      commandLine: "echo 'No build step needed for vanilla JavaScript' && cp -r * /projects/chrome-extension/"
+  - id: test
+    exec:
+      component: dev
+      commandLine: "echo 'No tests configured for this project'"
