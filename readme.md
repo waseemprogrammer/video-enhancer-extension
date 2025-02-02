@@ -49,7 +49,7 @@ The extension requires access to:
 - **Storage** to remember user preferences.
 
 ## Support
-For any issues or feature requests, please contact us at **support@videoenhancer.com** or visit our [GitHub repository](https://github.com/your-repo/video-enhancer-extension).
+For any issues or feature requests, please contact me at **waseemprogrammerofficial@gmail.com** or visit our [GitHub repository](https://github.com/your-repo/video-enhancer-extension).
 
 ## License
 This project is licensed under the **MIT License** – you are free to use and modify it as per the license terms.
